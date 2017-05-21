@@ -1,0 +1,7 @@
+abcdf
+(((a|b) c)*(d|f))*
+
+acbcdacf
+dddd
+bdbcf
+acabdf
