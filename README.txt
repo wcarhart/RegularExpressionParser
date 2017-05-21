@@ -1,14 +1,16 @@
 RegularExpressionParser README.txt
 
-Purpose:
+PURPOSE:
 Program that takes in a text representation of a Regular Expression, converts it to an equivalent NFA, then converts it to an equivalent DFA, then parses test input to confirm if test strings are in the language of the given Regular Expression.
 
-Usage:
+
+USAGE:
 	RegularExpressionParser.java input_filename output_filename
 		OR
 	RegularExpressionParser.java
 
-Input files:
+
+INPUT:
 Each input file must be formatted in the following fashion:
 	Alphabet
 	Regular expression
@@ -18,7 +20,8 @@ Each input file must be formatted in the following fashion:
 	Test case N
 Input files can be found in the 'res' directory.
 
-Output file:
+
+OUTPUT:
 The output file will be formatted in the following fashion:
 	Result of test case 1
 	Result of test case 2
@@ -26,7 +29,8 @@ The output file will be formatted in the following fashion:
 	Result of test case N
 Output file will be generated, named 'results.txt'.
 
-Description:
+
+DESCRIPTION:
 Program logic will adhere to the following steps:
 	1. Read in input alphabet and regular expression from input file to produce a RegularExpression Object.
 	2. Convert RegularExpression Object into an NFA Object.
