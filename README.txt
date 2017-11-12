@@ -36,6 +36,3 @@ Program logic will adhere to the following steps:
 	2. Convert RegularExpression Object into an NFA Object.
 	3. Convert NFA Object into a DFA Object.
 	4. Read in each test case from the input file and run each as a computation on the DFA object. Write results to output file.
-
-
-More in-depth details about RegularExpressionParser can be viewed in the project writeup: "Regular Expression Parser Writeup.docx".
